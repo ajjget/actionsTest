@@ -74,7 +74,5 @@ class Calculator {
         return n + UUID.randomUUID().toString().replace("-", "");
     }
 
-    //comment
-
 
 }
