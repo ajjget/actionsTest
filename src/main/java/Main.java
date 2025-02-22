@@ -1,7 +1,8 @@
+import java.util.Scanner
 public class Main {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
-    Calcultor calculator = new Calculator();
+    Calculator calculator = new Calculator();
 
     while (scanner.hasNext()) {
       String command = scanner.next();
